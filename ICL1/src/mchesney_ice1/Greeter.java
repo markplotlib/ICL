@@ -8,8 +8,7 @@ public class Greeter {
 	public Greeter() {
 		Scanner keyboard = new Scanner(System.in);
 		System.out.print("What is your name? ");
-		String name = keyboard.nextLine();
-		this.name = name;
+		this.name = keyboard.nextLine();
 		keyboard.close();
 	}
 	
